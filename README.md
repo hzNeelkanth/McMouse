@@ -7,9 +7,9 @@ Luckily, this is an easy fix. We'll just have to replace the API inputs to those
  "Encouraging" encourages a more goal-oriented approach rather than the exploratory one in "Penalize". Infortunatly, it has the habit of investigating every nook and crany. Though, the err could be remedied by combining elements of "Penalize" and "Encouraging" into one "amalgamated" code. I'll call the file of this amalgamated code "Skele-file_Amalg" – truely the best name there ever was. 
 
 "Encouraging" is better in most regards except in the "ALLJAPAN" maps – where "Penalize" reaches the goal in a shorter distance.
-"Smartass" is jittery – I have no idea how to fix it. 
-"Smartass": chooses the shorter route most of the time; maze 3 is an anomaly – maybe if we store a total distance value for both paths a&b and if a<'b the robot would choose a (potential solution).
-I made the code from the supposition that the competition is based on spontaneous maze-solving. if there's a explore–and–return–to–start element we can add a second phase. [Already added] 
+"Smartass" was a bit jittery at times - though this should be fixed now. 
+"Smartass" chooses the shorter route most of the time; maze 3 is an anomaly – maybe if we store a total distance value for both paths a&b and if a<'b the robot would choose a (potential solution).
+I made the code on the supposition that the competition revolved around spontaneous maze-solving. if there's a explore–and–return–to–start element we can add a second phase. [Already added] 
          
 
 
