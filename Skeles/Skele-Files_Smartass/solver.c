@@ -36,7 +36,7 @@ void init_cost_map(void) {
         cost[gx + 1][gy + 1] = 0;
     } }
 
-
+// ------------------------------------------------------------
 // Check bounds
 
 bool valid(int x, int y) {
@@ -51,7 +51,7 @@ void flood_fill(void) {
     int front = 0, rear = 0;
 
     for (int x = 0; x < N; x++)
-        for (int y = 0; y < N; y++)
+      for (int y = 0; y < N; y++)
             cost[x][y] = INF;
 
     int gx = (N - 1) / 2;
@@ -77,12 +77,12 @@ void flood_fill(void) {
             if (cost[nx][ny] > base + 1) {
                 cost[nx][ny] = base + 1;
                 qx[rear] = nx; qy[rear++] = ny;
-            } }
-             }}
+            }
+          }}
 
-
-// Move robot towards lowest-cost neighbor (goal-biased)
-
+// ------------------------------------------------------------
+// Move robot toward lowest-cost neighbor (goal-biased)
+// ------------------------------------------------------------
 
 void move_to_next_cell(void) {
     int best_dir = -1;
