@@ -80,9 +80,9 @@ void flood_fill(void) {
             }
           }}
 
-// ------------------------------------------------------------
+
 // Move robot toward lowest-cost neighbor (goal-biased)
-// ------------------------------------------------------------
+
 
 void move_to_next_cell(void) {
     int best_dir = -1;
