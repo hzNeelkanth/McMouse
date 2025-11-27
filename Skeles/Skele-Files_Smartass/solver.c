@@ -36,7 +36,6 @@ void init_cost_map(void) {
         cost[gx + 1][gy + 1] = 0;
     } }
 
-// ------------------------------------------------------------
 // Check bounds
 
 bool valid(int x, int y) {
